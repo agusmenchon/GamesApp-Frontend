@@ -1,0 +1,19 @@
+.title{
+    height: 10vh;
+}
+.game-info{
+    width: 40%;
+    height: 60vh;
+}
+
+.footer-loading{
+
+}
+
+.body-loading{
+    flex: 0 1 75vh
+}
+
+.list-players{
+    height: 60vh;
+}

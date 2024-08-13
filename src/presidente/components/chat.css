@@ -1,0 +1,53 @@
+.desactivate{
+    display: none;
+    visibility: hidden!important;
+}
+
+.chat-modal{
+    max-width: 600px;
+    min-height: 50vh;
+}
+
+.title-chat{
+
+}
+
+.list-msg-chat{
+    min-height: 50vh;
+}
+
+.body-msg{
+    margin-top: 2%;
+    background-color: body-msg;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #b1e4f5ee;
+}
+
+.date-msg-chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.title-msg-chat{
+    margin-left: 10%;
+}
+
+.title-msg-chat > h5{
+    font-size: 2%;
+}
+
+.body-msg-chat{
+    margin-left: 2%;
+}
+
+.input-send-msg{
+    flex: 0 1 100%;
+}
+
+.title-chat{
+    margin-left: 20%;
+    align-items:center;
+}
