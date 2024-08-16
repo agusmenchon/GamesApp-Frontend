@@ -25,6 +25,11 @@ const SideBar = () => {
       nombre: "ToDo List",
       url: "/todo",
       logo: "lni lni-list"
+    },
+    {
+      nombre: "prueba",
+      url: "/presidente-prueba",
+      logo: "lni lni-game"
     }
   ]
 

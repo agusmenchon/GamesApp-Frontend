@@ -1,4 +1,6 @@
-{
+import { turnoDTO } from '../hooks/index';
+
+export const turnoData:turnoDTO = {
     "idGame": "8ylBSw",
     "idMano": -1,
     "jugadores": [
@@ -7,11 +9,11 @@
             "nombre": "agustin",
             "puntos": 0,
             "cartas": [
-                {
-                    "numero": 5,
-                    "palo": "Oro",
-                    "orden": 14
-                },
+                // {
+                //     "numero": 5,
+                //     "palo": "Oro",
+                //     "orden": 14
+                // },
                 {
                     "numero": 10,
                     "palo": "Espada",
@@ -69,11 +71,11 @@
                     "palo": "Espada",
                     "orden": 24
                 },
-                {
-                    "numero": 6,
-                    "palo": "Espada",
-                    "orden": 20
-                },
+                // {
+                //     "numero": 6,
+                //     "palo": "Espada",
+                //     "orden": 20
+                // },
                 {
                     "numero": 1,
                     "palo": "Espada",
@@ -121,11 +123,11 @@
                     "palo": "Basto",
                     "orden": 15
                 },
-                {
-                    "numero": 3,
-                    "palo": "Basto",
-                    "orden": 7
-                },
+                // {
+                //     "numero": 3,
+                //     "palo": "Basto",
+                //     "orden": 7
+                // },
                 {
                     "numero": 3,
                     "palo": "Espada",
@@ -163,11 +165,11 @@
                     "palo": "Basto",
                     "orden": 47
                 },
-                {
-                    "numero": 8,
-                    "palo": "Espada",
-                    "orden": 28
-                },
+                // {
+                //     "numero": 8,
+                //     "palo": "Espada",
+                //     "orden": 28
+                // },
                 {
                     "numero": 6,
                     "palo": "Oro",
@@ -205,11 +207,11 @@
                     "palo": "Oro",
                     "orden": 22
                 },
-                {
-                    "numero": 8,
-                    "palo": "Basto",
-                    "orden": 27
-                },
+                // {
+                //     "numero": 8,
+                //     "palo": "Basto",
+                //     "orden": 27
+                // },
                 {
                     "numero": 4,
                     "palo": "Oro",
@@ -286,7 +288,29 @@
         }
     ],
     "indexTurnoJugador": 2,
-    "mazo": [],
+    "mazo": [{
+        "numero": 5,
+        "palo": "Oro",
+        "orden": 14
+    },                {
+        "numero": 6,
+        "palo": "Espada",
+        "orden": 20
+    },                {
+        "numero": 3,
+        "palo": "Basto",
+        "orden": 7
+    },                {
+        "numero": 8,
+        "palo": "Espada",
+        "orden": 28
+    },                
+    {
+        "numero": 8,
+        "palo": "Basto",
+        "orden": 27
+    },
+],
     "cantCartas": null,
     "escalera": false,
     "primero": false,

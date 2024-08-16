@@ -45,9 +45,9 @@ export const useAuthStore = () => {
             };
 
             const {data} = await authApi.post('/register', user, {
-                headers:{
-                    'Access-Control-Allow-Origin': '*'
-                }
+                // headers:{
+                //     'Access-Control-Allow-Origin': '*'
+                // }
             });
             console.log(data);
             localStorage.setItem('token', data.jwtoken);

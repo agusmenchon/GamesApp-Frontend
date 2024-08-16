@@ -2,15 +2,13 @@ import presidenteApi from '../api/presidenteApi';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { joinRoom} from '../store/presidente/presidenteSlice';
-// import { useAuthStore } from './useAuthStore';
-// import { connectclient } from '../store';
 
 export interface turnoDTO{
     idGame: string,
     idMano: number | null,
     indexTurnoJugador: number | null,
     jugadores: Jugador[],
-    mazo: Carta[] | null,
+    mazo: Carta[],
     cantCartas: number | null,
     escalera: boolean | null,
     status: string,
@@ -19,7 +17,7 @@ export interface turnoDTO{
 
 export interface Jugador{
     uid: string;
-    cartas: Carta;
+    cartas: Carta[];
     nombre: string;
     puntos: number;
 }
@@ -108,21 +106,6 @@ export const usePresidenteStore = () => {
         }
     }
 
-
-    // const startGame = async () =>{
-    //     console.log('StartGame');
-    //     // if(client?.connected){
-    //         console.log( "stomp client connected: ", client?.connected)
-    //         await client?.send('/app/play/game',{}, roomId);
-    //     // }
-    // }
-
-    // const disconnectWebSocket = () => {
-    //     if(client?.connected){
-    //         // client?.disconnect();
-    //     }
-    // }
-    
   return {
     //states
     ok, 

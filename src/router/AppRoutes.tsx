@@ -8,6 +8,7 @@ import { PresidenteRoutes } from "../presidente/routes/PresidenteRoutes";
 import PresidenteRouter from "../auth/routes/LoginRouter";
 import LoginRouter from "../auth/routes/LoginRouter";
 import { LoginRoutes } from "../auth/routes/LoginRoutes";
+import GamePage from "../presidente/pages/GamePage";
 
 export const AppRoutes = [
   {
@@ -28,6 +29,11 @@ export const AppRoutes = [
   {
     path: "/todo/*",
     element: <TodoPage />,
+  },
+  //desp eliminar
+  {
+    path: "/presidente-prueba",
+    element: <GamePage />,
   },
   {
     index: true,
