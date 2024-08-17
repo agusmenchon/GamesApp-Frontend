@@ -18,9 +18,7 @@ const AppRouter = () => {
 
         {/* container */}
         <div className="main p-3">
-          <div>
             <Outlet />
-          </div>
         </div>
       </div>
 

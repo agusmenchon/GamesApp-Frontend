@@ -24,7 +24,7 @@ export interface Jugador{
 
 export interface Carta{
     numero: number,
-    palo: string,
+    palo: number,
     orden: number
 }
 
